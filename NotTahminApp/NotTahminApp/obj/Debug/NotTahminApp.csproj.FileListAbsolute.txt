@@ -1,0 +1,24 @@
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\bin\NotTahminApp.dll.config
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\bin\NotTahminApp.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\bin\NotTahminApp.pdb
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\bin\EntityFramework.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\bin\EntityFramework.xml
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\obj\Debug\NotTahminApp.csprojAssemblyReference.cache
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\obj\Debug\NotTahminApp.csproj.CoreCompileInputs.cache
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\obj\Debug\NotTahminApp.csproj.CopyComplete
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\obj\Debug\NotTahminApp.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\NotTahminApp\obj\Debug\NotTahminApp.pdb
+D:\NotTahminApp\NotTahminApp\bin\NotTahminApp.dll.config
+D:\NotTahminApp\NotTahminApp\bin\NotTahminApp.dll
+D:\NotTahminApp\NotTahminApp\bin\NotTahminApp.pdb
+D:\NotTahminApp\NotTahminApp\bin\EntityFramework.dll
+D:\NotTahminApp\NotTahminApp\bin\EntityFramework.SqlServer.dll
+D:\NotTahminApp\NotTahminApp\bin\EntityFramework.xml
+D:\NotTahminApp\NotTahminApp\bin\EntityFramework.SqlServer.xml
+D:\NotTahminApp\NotTahminApp\obj\Debug\NotTahminApp.csprojAssemblyReference.cache
+D:\NotTahminApp\NotTahminApp\obj\Debug\NotTahminApp.csproj.CoreCompileInputs.cache
+D:\NotTahminApp\NotTahminApp\obj\Debug\NotTahminApp.csproj.CopyComplete
+D:\NotTahminApp\NotTahminApp\obj\Debug\NotTahminApp.dll
+D:\NotTahminApp\NotTahminApp\obj\Debug\NotTahminApp.pdb

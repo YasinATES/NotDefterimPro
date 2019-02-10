@@ -1,0 +1,81 @@
+﻿@model Client.Models.StudentsVM
+@{
+    ViewBag.Title = "UserList";
+}
+<br />
+
+@if (Convert.ToString(Session["Oturum"]) == "admin")
+{
+    <div class="container">
+    <h3>Admin Panel</h3>
+    <table class="table">
+        <thead action="index" method="get">
+            <tr style="font-size:13px;">
+                <th scope="col">Id</th>
+                <th scope="col">Ad Soyad</th>
+                <th scope="col">Kullanıcı Adı</th>
+                <th scope="col">Şifre</th>
+                <th scope="col">E-Mail</th>
+                <th scope="col">Gizli Soru</th>
+                <th scope="col">Cevap</th>
+                <th scope="col">Yetki</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var item in ViewBag.Ogrenciler)
+                {
+                    if(item.Id==1 && Convert.ToInt32( Session["UserId"]) != item.Id)
+                    {
+                        continue;
+                    }
+                    <tr id="@item.Id" style="font-size:13px;">
+                        <td name="Id">@item.Id</td>
+                        <td name="AdSoyad" contenteditable="true" onblur="Guncel('@item.Id',this)">@item.AdSoyad</td>
+                        <td name="KullaniciAdi" contenteditable="true" onblur="Guncel('@item.Id',this)">@item.KullaniciAdi</td>
+                        <td name="Sifre" contenteditable="true" onblur="Guncel('@item.Id',this)">@item.Sifre</td>
+                        <td name="EMail" contenteditable="true" onblur="Guncel('@item.Id',this)">@item.EMail</td>
+                        <td name="GizliSoru">@item.GizliSoru</td>
+                        <td name="GizliSoruCevap" contenteditable="true" onblur="Guncel('@item.Id',this)">@item.GizliSoruCevap</td>
+                        <td name="Oturum" contenteditable="true" onblur="Guncel('@item.Id',this)">@item.Oturum</td>
+                        
+                        <td>
+                            @if (Convert.ToInt32(Session["UserId"]) != item.Id)
+                            {
+                                <a href="/Home/KullaniciSil?id=@item.Id" class="btn-sm btn-danger">Sil</a>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+@section scripts
+{
+        <script>
+            function Guncel(id, element) {
+                console.log(id + " - " + $(element).text() + " - " + $(element).attr('name'));
+                var d = {};
+                d[$(element).attr('name')] = $(element).text();
+                d["Id"] = id;
+
+                $($(element).parent().find('td')).each(function (n, v) {
+                    console.log("Name = " + $(v).attr('name') + " Value : " + $(v).text());
+                    d[$(this).attr('name')] = $(this).text();
+                });
+
+                $.post("/Home/UpdateUsers", d, function (result) {
+                    if (result == true) {
+                        window.location.assign("/Home/UserList")
+                    }
+                });
+            }
+        </script>
+ }
+}
+else
+{
+    <script>window.location.assign("/Home/Index")</script>
+}

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:50058/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:50058/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:50058/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/NotTahminApp" />
+      <xsd:import schemaLocation="http://localhost:50058/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/NotTahminApp.Models" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_SignUp_InputMessage">
+    <wsdl:part name="parameters" element="tns:SignUp" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SignUp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SignUpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ChangePassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePassword" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ChangePassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TryChangePassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:TryChangePassword" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TryChangePassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TryChangePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertLesson_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLesson" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertLesson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLessonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllLesson_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllLesson" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllLesson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllLessonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateLesson_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLesson" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateLesson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLessonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteLesson_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLesson" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteLesson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLessonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AccessControl_InputMessage">
+    <wsdl:part name="parameters" element="tns:AccessControl" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AccessControl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AccessControlResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllStudents_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllStudents" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllStudents_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllStudentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="SignUp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SignUp" message="tns:IService1_SignUp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SignUpResponse" message="tns:IService1_SignUp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Login" message="tns:IService1_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoginResponse" message="tns:IService1_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ChangePassword" message="tns:IService1_ChangePassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ChangePasswordResponse" message="tns:IService1_ChangePassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TryChangePassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/TryChangePassword" message="tns:IService1_TryChangePassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/TryChangePasswordResponse" message="tns:IService1_TryChangePassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLesson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertLesson" message="tns:IService1_InsertLesson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertLessonResponse" message="tns:IService1_InsertLesson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLesson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAllLesson" message="tns:IService1_GetAllLesson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAllLessonResponse" message="tns:IService1_GetAllLesson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLesson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateLesson" message="tns:IService1_UpdateLesson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateLessonResponse" message="tns:IService1_UpdateLesson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLesson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteLesson" message="tns:IService1_DeleteLesson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteLessonResponse" message="tns:IService1_DeleteLesson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AccessControl">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AccessControl" message="tns:IService1_AccessControl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AccessControlResponse" message="tns:IService1_AccessControl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllStudents">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAllStudents" message="tns:IService1_GetAllStudents_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAllStudentsResponse" message="tns:IService1_GetAllStudents_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteUser" message="tns:IService1_DeleteUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteUserResponse" message="tns:IService1_DeleteUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateUser" message="tns:IService1_UpdateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateUserResponse" message="tns:IService1_UpdateUser_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SignUp">
+      <soap:operation soapAction="http://tempuri.org/IService1/SignUp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IService1/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <soap:operation soapAction="http://tempuri.org/IService1/ChangePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TryChangePassword">
+      <soap:operation soapAction="http://tempuri.org/IService1/TryChangePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLesson">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertLesson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLesson">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAllLesson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLesson">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateLesson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLesson">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteLesson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccessControl">
+      <soap:operation soapAction="http://tempuri.org/IService1/AccessControl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllStudents">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAllStudents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:50058/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,106 @@
+﻿@model Client.Models.StudentsVM
+@{
+    ViewBag.Title = "SingUp";
+}
+@if ((Convert.ToString(Session["UserName"]) == ""))
+{
+<div class="container">
+    <div class="col-lg-4 col-md-6 col-xs-12">
+        <br />
+        <h3> &emsp;  &emsp;Kayıt Ol</h3>
+        <form action="SingUp" method="post">
+
+            <div class="form-group">
+                <input type="text" class="form-control col" name="AdSoyad" placeholder="Ad Soyad">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control col" name="KullaniciAdi" placeholder="Kullanıcı Adı">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control col" name="Sifre" placeholder="Şifre">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control col" name="EMail" placeholder="E-Mail">
+            </div>
+            <div class="form-group">
+                <select class="form-control col" name="GizliSoru">
+                    <option>En Sevdiğiniz Evcil Hayvan?</option>
+                    <option>En Yakın Arkadaşınızın Adı?</option>
+                    <option>Tc Kimlik Numaranızın Son 5 Hanesi?</option>
+                    <option>Annenizin Kızlık Soy İsmi?</option>
+                    <option>İlk Aracınızın Modeli Nedir?</option>
+                    <option>Hangi Şehirde Doğdunuz?</option>
+                    <option>Babanızın Ortanca İsmi Nedir?</option>
+                    <option>Çocukluk Lakabınız Nedir?</option>
+                    <option>En Sevdiğiniz Öğretmen Kimdir?</option>
+                    <option>Gizli Soru Kullanmam Saçma Bir Uygulama...</option>
+                </select>
+
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control col" name="GizliSoruCevap" placeholder="Cevabı">
+            </div>
+            <div class="form-group">
+                <p style="color:red">@TempData["Uzunluk"]</p>
+                <p style="color:red">@TempData["AyniUye"]</p>
+                <p style="color:red">@TempData["Mail"]</p>
+                <button type="submit" class="btn btn-outline-primary col kaydet" id="kaydet">Kaydet</button>
+                <br /> <br />
+                <p style="color:limegreen">Dikkat! Gireceğiniz her değer 5 karakterden uzun olmalıdır.</p>
+                <p style="color:limegreen">Gizli soru kullannmıyorsanız bile bir cevap belirlemelisiniz..</p>
+
+
+                @if (Convert.ToInt32(TempData["temp"]) == 1)
+                {
+                    if (Convert.ToInt32(TempData["tutucu"]) == 2)
+                    {
+                        <script>
+                        swal("Hatalı Giriş:", "Lütfen @TempData["Eror"] Alanlarını Doldurunuz.", "error")
+                        </script>
+                    }
+                    if (Convert.ToInt32(TempData["tutucu"]) == 1)
+                    {
+                        
+                        
+                        <script>
+                            $(document).ready(function () {
+
+                                
+                                    var url = 'http://localhost:51165/Home/SingUp';
+
+                                    $.ajax({
+                                        type: "POST",
+                                        url: url,
+                                        data: {
+                                            'code': 'asdsadasd'
+                                        },
+                                        cache: false,
+                                        success: function () {
+                                            swal({
+                                                title: "Success!",
+                                                text: "You are now following",
+                                                type: "success",
+                                                timer: 3000,
+                                                showConfirmButton: false
+                                            });
+                                            window.setTimeout(function () { }, 3000);
+                                            location.reload();
+
+                                        }
+                                });
+
+                            });
+                        </script>
+                    }
+                }
+
+            </div>
+
+        </form>
+    </div>
+</div>
+}
+else
+{
+    <script>window.location.assign("/Home/Index")</script>
+}

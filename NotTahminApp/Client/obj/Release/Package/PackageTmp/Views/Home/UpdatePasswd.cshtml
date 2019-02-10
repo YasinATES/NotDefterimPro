@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "UpdatePasswd";
+}
+
+    
+<div class="container">
+    <div class="col-lg-4 col-md-6 col-xs-12">
+        <br />
+        <h3>Şifre Güncelle</h3>
+        <form action="UpdatePasswd" method="post">
+            <div class="form-group">
+                <input type="text" class="form-control col" name="KullaniciAdi" placeholder="Kullanıcı Adı">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control col" name="EMail" placeholder="E-Mail">
+            </div> <br />
+            <div class="form-group">
+                <select class="form-control col" name="GizliSoru">
+                    <option>En Sevdiğiniz Evcil Hayvan?</option>
+                    <option>En Yakın Arkadaşınızın Adı?</option>
+                    <option>Tc Kimlik Numaranızın Son 5 Hanesi?</option>
+                    <option>Annenizin Kızlık Soy İsmi?</option>
+                    <option>İlk Aracınızın Modeli Nedir?</option>
+                    <option>Hangi Şehirde Doğdunuz?</option>
+                    <option>Babanızın Ortanca İsmi Nedir?</option>
+                    <option>Çocukluk Lakabınız Nedir?</option>
+                    <option>En Sevdiğiniz Öğretmen Kimdir?</option>
+                    <option>Gizli Soru Kullanmam Saçma Bir Uygulama...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control col" name="GizliSoruCevap" placeholder="Cevabı">
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="text" class="form-control col" name="Sifre" placeholder="Yeni Şifre">
+            </div>
+            <br />
+            @if (Convert.ToString(TempData["GuncellemeHata"]) == "Bulunamıyor")
+            {
+
+                <div class="row">
+                    <div class="col-6">
+                        <a href="TryUpdatePasswd"><button type="button" class="btn btn-outline-info col">E-Posta Gönder!</button></a>
+                    </div>
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-outline-primary col">Güncelle</button>
+
+                    </div>
+                </div>
+
+            }
+            else
+            {
+                <button type="submit" class="btn btn-outline-primary col">Giriş</button>
+            }
+
+        </form>
+    </div>
+</div>
+

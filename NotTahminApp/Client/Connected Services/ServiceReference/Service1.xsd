@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/NotTahminApp.Models" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/NotTahminApp.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="StudentDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdSoyad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DersSayisi" type="xs:int" />
+      <xs:element minOccurs="0" name="EMail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GizliSoru" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GizliSoruCevap" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="KullaniciAdi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Oturum" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Sifre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StudentDTO" nillable="true" type="tns:StudentDTO" />
+  <xs:complexType name="ArrayOfLessonDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LessonDTO" nillable="true" type="tns:LessonDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLessonDTO" nillable="true" type="tns:ArrayOfLessonDTO" />
+  <xs:complexType name="LessonDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Adı" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Büt" type="xs:int" />
+      <xs:element minOccurs="0" name="BütTahmin" type="xs:int" />
+      <xs:element minOccurs="0" name="Final" type="xs:int" />
+      <xs:element minOccurs="0" name="FinalDurum" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FinalTahmin" type="xs:int" />
+      <xs:element minOccurs="0" name="GecerNot" type="xs:double" />
+      <xs:element minOccurs="0" name="GecmeNotu" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="StudentId" type="xs:int" />
+      <xs:element minOccurs="0" name="Vize" type="xs:int" />
+      <xs:element minOccurs="0" name="VizeDurum" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VizeTahmin" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LessonDTO" nillable="true" type="tns:LessonDTO" />
+  <xs:complexType name="ArrayOfStudentDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="StudentDTO" nillable="true" type="tns:StudentDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStudentDTO" nillable="true" type="tns:ArrayOfStudentDTO" />
+</xs:schema>

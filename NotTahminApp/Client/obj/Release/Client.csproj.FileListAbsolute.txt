@@ -1,0 +1,243 @@
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\Client.dll.config
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\Client.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\Client.pdb
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\csc.exe
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\csc.exe.config
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\csc.rsp
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\csi.exe
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\csi.exe.config
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\csi.rsp
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.AppContext.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Console.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.IO.Compression.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Security.Claims.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.ValueTuple.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\vbc.exe
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\vbc.exe.config
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\vbc.rsp
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\EntityFramework.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\EntityFramework.SqlServer.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Helpers.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Mvc.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Razor.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Webpages.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Webpages.Razor.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\EntityFramework.xml
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\EntityFramework.SqlServer.xml
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Razor.xml
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Webpages.xml
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Webpages.Razor.xml
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Helpers.xml
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\System.Web.Mvc.xml
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\obj\Release\Client.csprojAssemblyReference.cache
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\obj\Release\Client.csproj.CopyComplete
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\obj\Release\Client.dll
+C:\Users\Yasin ATEŞ\Desktop\NotTahminApp\Client\obj\Release\Client.pdb
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\Client.dll.config
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\Client.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\Client.pdb
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csc.exe
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csc.exe.config
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csc.rsp
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csi.exe
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csi.exe.config
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csi.rsp
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.AppContext.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Console.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.IO.Compression.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Claims.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.ValueTuple.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\vbc.exe
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\vbc.exe.config
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\vbc.rsp
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\EntityFramework.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\EntityFramework.SqlServer.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Helpers.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Mvc.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Razor.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.Razor.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\EntityFramework.xml
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\EntityFramework.SqlServer.xml
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Razor.xml
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.xml
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.Razor.xml
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Helpers.xml
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Mvc.xml
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\obj\Release\Client.csprojAssemblyReference.cache
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\obj\Release\Client.csproj.CopyComplete
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\obj\Release\Client.dll
+C:\Users\Yasin ATEŞ\Desktop\Üstünde Çalıştığım\NotTahminApp\Client\obj\Release\Client.pdb
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\Client.dll.config
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\Client.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\Client.pdb
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csc.exe
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csc.exe.config
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csc.rsp
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csi.exe
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csi.exe.config
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\csi.rsp
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.AppContext.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Collections.Immutable.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Console.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Diagnostics.Process.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.IO.Compression.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.IO.FileSystem.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.IO.Pipes.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Reflection.Metadata.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.AccessControl.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Claims.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Security.Principal.Windows.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Threading.Thread.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.ValueTuple.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Xml.XmlDocument.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Xml.XPath.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\vbc.exe
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\vbc.exe.config
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\vbc.rsp
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\VBCSCompiler.exe
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\roslyn\VBCSCompiler.exe.config
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\EntityFramework.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\EntityFramework.SqlServer.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\Microsoft.Web.Infrastructure.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Helpers.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Mvc.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Razor.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.Deployment.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.Razor.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\EntityFramework.xml
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\EntityFramework.SqlServer.xml
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Razor.xml
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.xml
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.Deployment.xml
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Webpages.Razor.xml
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Helpers.xml
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\System.Web.Mvc.xml
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Razor.resources.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Webpages.resources.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Webpages.Deployment.resources.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Webpages.Razor.resources.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Helpers.resources.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\bin\tr\System.Web.Mvc.resources.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\obj\Release\Client.csprojAssemblyReference.cache
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\obj\Release\Client.csproj.CopyComplete
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\obj\Release\Client.dll
+D:\.Net Proje\Üstünde Çalıştığım\NotTahminApp\Client\obj\Release\Client.pdb

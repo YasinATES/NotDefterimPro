@@ -1,0 +1,143 @@
+﻿@model Client.Models.LessonVM
+@{
+    ViewBag.Title = "LessonTable";
+}
+<div class="container">
+    <link href="~/Content/taaltip.css" rel="stylesheet" />
+    <br />
+    <h3>Kayıtlı Dersler</h3>
+    <table class="table" >
+        <thead action="Index" method="get">
+            <tr style="font-size:13px;">
+                <th scope="col">Ders</th>
+                <th scope="col">Vize Hedef</th>
+                <th scope="col">Vize Not</th>
+                <th scope="col">Vize Durum</th>
+                <th scope="col">Geçer Not</th>
+                <th scope="col">Final Hedef</th>
+                <th scope="col">Final Not</th>
+                <th scope="col">Final Durum</th>
+                <th scope="col">Büt Hedef</th>
+                <th scope="col">Büt Not</th>
+                <th scope="col">Geçeme Notu</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var item in ViewBag.Dersler)
+                {
+                    <tr id="@item.Id" style="font-size:14px;">
+                        <td name="Adı" contenteditable="true" onblur="Guncelle('@item.Id',this)">@item.Adı</td>
+                        <td name="VizeTahmin" contenteditable="true" onblur="Guncelle('@item.Id',this)">@item.VizeTahmin</td>
+                        <td name="Vize" contenteditable="true" onblur="Guncelle('@item.Id',this)">@item.Vize</td>
+                        @if (item.VizeDurum == "Başarılı")
+                        {
+                            <td style="color:#00FF00">@item.VizeDurum</td>
+                        }
+                        else
+                        {
+                            <td style="color:#FF0000">@item.VizeDurum</td>
+                        }
+                        @{
+                            var a1 = (90 - (Convert.ToDouble(item.Vize) * 0.4)) / 0.6;
+                            a1 = Math.Round(a1, 2);
+                            if (a1 < 50 | a1 > 100)
+                            {
+                                a1 = "-";
+                            }
+                            var a2 = (80 - (Convert.ToDouble(item.Vize) * 0.4)) / 0.6;
+                            a2 = Math.Round(a2, 2);
+                            if (a2 < 50 | a2 > 100)
+                            {
+                                a2 = "-";
+                            }
+                            var b1 = (70 - (Convert.ToDouble(item.Vize) * 0.4)) / 0.6;
+                            b1 = Math.Round(b1, 2);
+                            if (b1 < 50 | b1 > 100)
+                            {
+                                b1 = "-";
+                            }
+                            var b2 = (65 - (Convert.ToDouble(item.Vize) * 0.4)) / 0.6;
+                            b2 = Math.Round(b2, 2);
+                            if (b2 < 50 | b2 > 100)
+                            {
+                                b2 = "-";
+                            }
+                            var c = (60 - (Convert.ToDouble(item.Vize) * 0.4)) / 0.6;
+                            c = Math.Round(c, 2);
+                            if (c < 50 | c > 100)
+                            {
+                                c = "-";
+                            }
+
+                        }
+                        @{
+                            if (item.Vize != 0 & @item.GecmeNotu == 60)
+                            {
+
+                                <td name="GecerNot" style="color:#0026ff"><div class="tooltip5">@item.GecerNot<span class="tooltiptext5">A1 için : @a1<br>A2 için : @a2<br>B1 için : @b1<br>B2 için : @b2<br>C  için  :  @c</span></div></td>
+                            }
+                            else
+                            {
+                                <td name="GecerNot" style="color:#0026ff">@item.GecerNot</td>
+
+                            }
+                        }
+                        <td name="FinalTahmin" contenteditable="true" onblur="Guncelle('@item.Id',this)">@item.FinalTahmin</td>
+                        <td name="Final" contenteditable="true" onblur="Guncelle('@item.Id',this)">@item.Final</td>
+                        @if (item.FinalDurum == "Başarılı")
+                        {
+                            <td style="color:#00FF00">@item.FinalDurum</td>
+                        }
+                        else
+                        {
+                            <td style="color:#FF0000">@item.FinalDurum</td>
+
+                        }
+                        <td name="BütTahmin" contenteditable="true" onblur="Guncelle('@item.Id',this)">@item.BütTahmin</td>
+                        <td name="Büt" contenteditable="true" onblur="Guncelle('@item.Id',this)">@item.Büt</td>
+                        <td name="GecmeNotu" contenteditable="true" onblur="Guncelle('@item.Id',this)">@item.GecmeNotu</td>
+                        <td>
+                            <a href="/Home/Sil?id=@item.Id" class="btn-sm btn-danger">Sil</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    <form action="LessonTable" method="post">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+                <button type="submit" class="btn btn-outline-success col-lg-12 col-md-12 col-xs-12">Ders Ekle</button>
+            </div>
+        </div>
+    </form>
+    <br />
+    <p style="color:red">@TempData["Aralik"]</p>
+</div>
+@section scripts
+{
+    <script>
+        function Guncelle(id, element) {
+            console.log(id + " - " + $(element).text() + " - " + $(element).attr('name'));
+            var d = {};
+            d[$(element).attr('name')] = $(element).text();
+            d["Id"] = id;
+
+
+            $($(element).parent().find('td')).each(function (n, v) {
+                console.log("Name = " + $(v).attr('name') + " Value : " + $(v).text());
+                d[$(this).attr('name')] = $(this).text();
+            });
+
+            $.post("/Home/UpdateLessons", d, function (result) {
+                if (result == true) {
+                    window.location.assign("/Home/LessonTable")
+                }
+            });
+        }
+
+
+    </script>
+}
